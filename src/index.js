@@ -57,7 +57,7 @@ const compareSrc = function(src, newSrc) {
     }else return false
 }
 
-const lazyload = {
+export default {
     install: (Vue, _options) => {
         if(_options){
             for(var key in _options){
@@ -120,4 +120,4 @@ const lazyload = {
     }
 }
 
-module.exports = lazyload
+// module.exports = lazyload
